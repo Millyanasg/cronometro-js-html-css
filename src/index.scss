@@ -1,6 +1,14 @@
 body {
-    background-image: linear-gradient(rgb(255, 255, 255), rgb(224, 176, 214), rgb(187, 182, 179)); 
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(224, 176, 214), rgb(187, 182, 179));
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+    font-weight: Lighter;
 }

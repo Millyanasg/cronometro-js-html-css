@@ -1,7 +1,7 @@
 @use "sass:math";
 
 $clockSize: 8em;
-$clockStroke: 5px;
+$clockStroke: 4px;
 
 .clock {
     @keyframes dial {
@@ -16,13 +16,12 @@ $clockStroke: 5px;
     }
 
     position: relative;
-    transform: scale(2);
     border-radius: 50%;
     border: 1.7px solid;
     width: $clockSize;
     height: $clockSize;
     position: relative;
-    margin: 10em 5em 5em 40em;
+    margin: 5em auto;
     border: $clockStroke solid #181818;
     box-shadow: 0px 0px $clockStroke #181818,
     inset 0px -2px $clockStroke #fff;

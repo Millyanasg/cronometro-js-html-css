@@ -73,6 +73,8 @@
 }
 
 .laps {
+    width: 70%;
+    margin: 0 auto;
     h1 {
         font-size: 1.5em;
         font-family: 'Courier New', Courier, monospace;
@@ -85,12 +87,13 @@
     ol {
         list-style: lower-alpha;
         padding: 0;
-        margin: 0;
+        margin: 0 auto;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
         align-items: center;
-        width: 100%;
+        flex-direction: column;
+        li{
+            width: 100%;
+        }
 
         //inside scroll
         overflow-y: scroll;
@@ -106,13 +109,15 @@
         }
 
         &::-webkit-scrollbar-thumb {
-            background: rgb(224, 176, 214);
+            background: rgb(102, 73, 96);
+            border-radius: 10px;
         }
 
         &::-webkit-scrollbar-thumb:hover {
-            background: rgb(255, 255, 255);
+            background: rgb(78, 78, 78);
+            border-radius: 10px;
         }
-        
+
 
         li {
             display: flex;
